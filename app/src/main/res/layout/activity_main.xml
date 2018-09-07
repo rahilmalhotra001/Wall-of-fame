@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backgroundcustom"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/nextbutton"
+        android:padding="5dp"
+        android:cursorVisible="true"
+        android:drawableLeft="@drawable/studentdetails"
+        android:drawableRight="@drawable/studentdetails"
+        android:gravity="center"
+        android:text="Student Details"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:hint="Name">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/student"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0E709F"
+        android:textColorHint="#0981BA"
+        tools:background="@color/green" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:hint="Age">
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/age"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="10dp"
+            android:textColor="#0E709F"
+            android:textColorHint="#0981BA"
+            tools:background="@color/green" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Spinner
+        android:id="@+id/classname"
+        android:layout_width="193dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/spinnerlayout"
+        tools:background="@android:color/holo_blue_light" />
+
+    <Spinner
+        android:id="@+id/sports"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/spinnerlayout"
+        tools:background="@android:color/holo_blue_light" />
+
+    <Spinner
+        android:id="@+id/team"
+        android:layout_width="192dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/spinnerlayout"
+        tools:background="@android:color/holo_blue_light" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:hint="House">
+
+    <EditText
+        android:id="@+id/house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/house"
+        android:drawablePadding="10dp"
+        android:textColor="#0E709F"
+        android:textColorHint="#0981BA"
+        tools:background="@color/green" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/nextbutton"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="24sp" />
+
+
+
+
+</LinearLayout>
+</ScrollView>

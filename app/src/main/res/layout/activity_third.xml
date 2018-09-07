@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcustom"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/addpost"
+        android:layout_width="254dp"
+        android:layout_height="71dp"
+        android:background="@drawable/nextbutton"
+        android:drawableLeft="@drawable/addpost"
+        android:padding="5dp"
+        android:text="ADD POST"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/halloffame"
+        android:layout_width="254dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nextbutton"
+        android:drawableLeft="@drawable/walloffame"
+        android:padding="5dp"
+        android:text="WALL OF FAME"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="253dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nextbutton"
+        android:drawableLeft="@drawable/home"
+        android:padding="5dp"
+        android:text="Back to Home"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+</LinearLayout>
